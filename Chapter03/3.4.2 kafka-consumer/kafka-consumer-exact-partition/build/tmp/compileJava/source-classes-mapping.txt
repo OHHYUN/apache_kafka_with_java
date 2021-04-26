@@ -1,0 +1,2 @@
+com/example/ConsumerWithExactPartition.java
+ com.example.ConsumerWithExactPartition
