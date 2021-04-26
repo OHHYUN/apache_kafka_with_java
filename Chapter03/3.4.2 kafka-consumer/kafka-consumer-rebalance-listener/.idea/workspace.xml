@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38bf4523-9987-4a4e-9d52-10afcc0df1e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../kafka-consumer-rebalance-listener/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f2314a11-29c2-4890-b770-1585d5a40b5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kafka-consumer-rebalance-listener.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ConsumerWithRebalanceListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-consumer-async-commit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-consumer-async-commit/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1rhMDRdSSk3sF9kzBAheizgVbJG" />
+  <component name="ProjectId" id="1rhNX6BKhccxfGPMOLrgNylj5E6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,19 +53,6 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="ConsumerWithASyncCommit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ConsumerWithASyncCommit" />
-      <module name="kafka-consumer-async-commit.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -65,37 +64,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ConsumerWithASyncCommit" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="38bf4523-9987-4a4e-9d52-10afcc0df1e0" name="Default Changelist" comment="" />
-      <created>1619423750511</created>
+      <changelist id="f2314a11-29c2-4890-b770-1585d5a40b5f" name="Default Changelist" comment="" />
+      <created>1619424400333</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619423750511</updated>
-      <workItem from="1619423751771" duration="646000" />
+      <updated>1619424400333</updated>
+      <workItem from="1619424401546" duration="515000" />
     </task>
-    <task id="LOCAL-00001" summary="Kafka Consumer async commit">
-      <created>1619424341532</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1619424341532</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kafka Consumer async commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kafka Consumer async commit" />
   </component>
 </project>
