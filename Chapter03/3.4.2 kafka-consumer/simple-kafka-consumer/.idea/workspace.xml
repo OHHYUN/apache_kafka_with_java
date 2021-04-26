@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92bb8edc-1e03-40d6-9473-20ac27682d43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/modules/kafka-producer-async-callback.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/build/classes/java/main/com/example/ProducerCallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/build/classes/java/main/com/example/ProducerWithAsyncCallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-custom-partitioner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-custom-partitioner/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="92bb8edc-1e03-40d6-9473-20ac27682d43" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +25,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SimpleConsumer">
     <configuration name="SimpleConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.SimpleConsumer" />
       <module name="simple-kafka-consumer.main" />
@@ -64,9 +50,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="simple-kafka-consumer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SimpleConsumer" />
+        <item itemvalue="Gradle.simple-kafka-consumer" />
       </list>
     </recent_temporary>
   </component>
