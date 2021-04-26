@@ -1,0 +1,3 @@
+com/example/ConsumerWithSyncOffsetCommit.java
+ com.example.ConsumerWithSyncOffsetCommit
+ com.example.ConsumerWithSyncOffsetCommit$ShutdownThread
