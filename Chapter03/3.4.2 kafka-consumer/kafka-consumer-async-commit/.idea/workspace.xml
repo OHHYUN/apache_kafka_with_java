@@ -4,13 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="312177e1-c286-4e3c-9bc4-be3b21416b0b" name="Default Changelist" comment="">
+    <list default="true" id="38bf4523-9987-4a4e-9d52-10afcc0df1e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kafka-consumer-async-commit.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/ConsumerWithASyncCommit$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/ConsumerWithASyncCommit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ConsumerWithASyncCommit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer-sync-offset-commit/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer-sync-offset-commit/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer-sync-offset-commit/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer-sync-offset-commit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer-sync-offset-commit/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-consumer-sync-offset-commit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-consumer-sync-offset-commit/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +49,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1rhLCJl1DfMY8XnLGJsl9fmp7dc" />
+  <component name="ProjectId" id="1rhMDRdSSk3sF9kzBAheizgVbJG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="ConsumerWithSyncOffsetCommit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ConsumerWithSyncOffsetCommit" />
-      <module name="kafka-consumer-sync-offset-commit.main" />
+    <configuration name="ConsumerWithASyncCommit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ConsumerWithASyncCommit" />
+      <module name="kafka-consumer-async-commit.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
@@ -71,43 +89,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerWithSyncOffsetCommit" />
+        <item itemvalue="Application.ConsumerWithASyncCommit" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="312177e1-c286-4e3c-9bc4-be3b21416b0b" name="Default Changelist" comment="" />
-      <created>1619423249488</created>
+      <changelist id="38bf4523-9987-4a4e-9d52-10afcc0df1e0" name="Default Changelist" comment="" />
+      <created>1619423750511</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619423249488</updated>
-      <workItem from="1619423250738" duration="489000" />
+      <updated>1619423750511</updated>
+      <workItem from="1619423751771" duration="555000" />
     </task>
-    <task id="LOCAL-00001" summary="Kafka consumer sync offset commit">
-      <created>1619423646736</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1619423646736</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Kafka consumer sync commit">
-      <created>1619423666756</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1619423666756</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kafka consumer sync offset commit" />
-    <MESSAGE value="Kafka consumer sync commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kafka consumer sync commit" />
   </component>
 </project>

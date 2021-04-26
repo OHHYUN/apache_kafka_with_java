@@ -1,0 +1,3 @@
+com/example/ConsumerWithASyncCommit.java
+ com.example.ConsumerWithASyncCommit
+ com.example.ConsumerWithASyncCommit$1
