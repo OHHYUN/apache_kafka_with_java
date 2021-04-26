@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4e60de0-cc71-49e5-be8d-9102c4ecf960" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-sync-callback/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-sync-callback/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-sync-callback/build/classes/java/main/com/example/ProducerWithSyncCallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-sync-callback/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-producer-sync-callback/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-sync-callback/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.idea/modules/kafka-producer-async-callback.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/build/classes/java/main/com/example/ProducerCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/build/classes/java/main/com/example/ProducerWithAsyncCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.2 kafka-consumer/simple-kafka-consumer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.2 kafka-consumer/simple-kafka-consumer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.2 kafka-consumer/simple-kafka-consumer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.2 kafka-consumer/simple-kafka-consumer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.2 kafka-consumer/simple-kafka-consumer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.2 kafka-consumer/simple-kafka-consumer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.2 kafka-consumer/simple-kafka-consumer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.2 kafka-consumer/simple-kafka-consumer/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-async-callback/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-async-callback/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619419176172</updated>
-      <workItem from="1619419177441" duration="1083000" />
+      <workItem from="1619419177441" duration="1180000" />
     </task>
     <task id="LOCAL-00001" summary="Custom Partitioner">
       <created>1619419794547</created>

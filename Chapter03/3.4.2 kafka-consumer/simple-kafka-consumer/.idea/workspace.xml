@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92bb8edc-1e03-40d6-9473-20ac27682d43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/modules/kafka-producer-async-callback.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/build/classes/java/main/com/example/ProducerCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/build/classes/java/main/com/example/ProducerWithAsyncCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-async-callback/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-custom-partitioner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.4.1 kafka-producer/kafka-producer-custom-partitioner/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SimpleConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.SimpleConsumer" />
+      <module name="simple-kafka-consumer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleConsumer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
