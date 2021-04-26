@@ -1,0 +1,2 @@
+com/example/ConsumerWithSyncOffsetCommit.java
+ com.example.ConsumerWithSyncOffsetCommit
