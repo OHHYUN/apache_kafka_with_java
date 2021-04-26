@@ -1,3 +1,5 @@
+package com.example;
+
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -7,9 +9,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
 
-public class SimpleProducer {
+public class ProducerWithKeyValue {
 
-    private final static Logger logger = LoggerFactory.getLogger(SimpleProducer.class);
+    private final static Logger logger = LoggerFactory.getLogger(ProducerWithKeyValue.class);
     private final static String TOPIC_NAME = "test";
     private final static String BOOTSTRAP_SERVERS = "my-kafka:9092";
 
@@ -22,12 +24,11 @@ public class SimpleProducer {
 
         KafkaProducer<String, String> producer = new KafkaProducer<>(configs);
 
-        String messageValue = "testMessage3";
-        ProducerRecord<String, String> record = new ProducerRecord<>(TOPIC_NAME, messageValue);
+        ProducerRecord<String, String> record = new ProducerRecord<>(TOPIC_NAME, "Pangyo", "23");
         producer.send(record);
-        logger.info("{}", record);
+        ProducerRecord<String, String> record2 = new ProducerRecord<>(TOPIC_NAME, "Busan", "21");
+        producer.send(record2);
         producer.flush();
         producer.close();
     }
-
 }
