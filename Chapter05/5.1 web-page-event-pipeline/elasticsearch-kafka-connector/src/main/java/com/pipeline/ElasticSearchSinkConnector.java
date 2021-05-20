@@ -21,11 +21,16 @@ public class ElasticSearchSinkConnector extends SinkConnector {
     private Map<String, String> configProperties;
 
     @Override
+    public String version() {
+        return "1.0";
+    }
+
+    @Override
     public void start(Map<String, String> props) {
         this.configProperties = props;
-        try{
+        try {
             new ElasticSearchSinkConnectorConfig(props);
-        } catch (ConfigException e){
+        } catch (ConfigException e) {
             throw new ConnectException(e.getMessage(), e);
         }
     }
@@ -40,15 +45,10 @@ public class ElasticSearchSinkConnector extends SinkConnector {
         List<Map<String, String>> taskConfigs = new ArrayList<>();
         Map<String, String> taskProps = new HashMap<>();
         taskProps.putAll(configProperties);
-        for(int i =0; i< maxTasks; i++){
+        for (int i = 0; i < maxTasks; i++) {
             taskConfigs.add(taskProps);
         }
         return taskConfigs;
-    }
-
-    @Override
-    public void stop() {
-        logger.info("Stop elasticsearch connector");
     }
 
     @Override
@@ -57,7 +57,7 @@ public class ElasticSearchSinkConnector extends SinkConnector {
     }
 
     @Override
-    public String version() {
-        return "1.0";
+    public void stop() {
+        logger.info("Stop elasticsearch connector");
     }
 }
