@@ -25,14 +25,14 @@ public class ProduceController {
 
     @GetMapping("/api/select")
     public void selectColor(
-            @RequestHeader("user-agent") String userAgentName,
             @RequestParam(value = "color") String colorName,
             @RequestParam(value = "user") String userName){
         SimpleDateFormat sdfDate = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZZ");
         Date now = new Date();
         Gson gson = new Gson();
-        UserEventVO userEventVO = new UserEventVO(sdfDate.format(now), userAgentName, colorName, userName);
+        UserEventVO userEventVO = new UserEventVO(sdfDate.format(now), colorName, userName);
         String jsonColorLog = gson.toJson(userEventVO);
+        logger.info(jsonColorLog);
         kafkaTemplate.send("select-color", jsonColorLog).addCallback(new ListenableFutureCallback<SendResult<String, String>>() {
             @Override
             public void onFailure(Throwable ex) {

@@ -57,11 +57,13 @@ public class ElasticSearchSinkTask extends SinkTask {
             BulkRequest bulkRequest = new BulkRequest();
             for (SinkRecord record : records) {
                 Gson gson = new Gson();
-                Map map = gson.fromJson(record.value().toString(), Map.class);
+
+                Map map = (Map)record.value();
                 bulkRequest.add(new IndexRequest(config.getString(config.ES_INDEX))
                         .source(map, XContentType.JSON));
                 logger.info("record : {}", record.value());
             }
+
 
             esClient.bulkAsync(bulkRequest, RequestOptions.DEFAULT, new ActionListener<BulkResponse>() {
                 @Override
