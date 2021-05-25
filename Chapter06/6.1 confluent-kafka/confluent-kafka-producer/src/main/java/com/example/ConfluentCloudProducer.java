@@ -38,17 +38,21 @@ public class ConfluentCloudProducer {
         configs.put(SslConfigs.SSL_ENDPOINT_IDENTIFICATION_ALGORITHM_CONFIG, SSL_ENDPOINT);
 
         KafkaProducer<String, String> producer = new KafkaProducer<>(configs);
-        String messageKey = "helloKafka2";
-        String messageValue = "helloConfluentCloud2";
-        ProducerRecord<String, String> record = new ProducerRecord<>(TOPIC_NAME, messageKey, messageValue);
-        try{
-            RecordMetadata metadata = producer.send(record).get();
-            logger.info(metadata.toString());
-        }catch (Exception e){
-            logger.error(e.getMessage(), e);
-        } finally {
-            producer.flush();
-            producer.close();
+        for(int i =0; i< 1000; i++){
+            String messageKey = "helloKafka";
+            String messageValue = "helloConfluentCloud" + i;
+            ProducerRecord<String, String> record = new ProducerRecord<>(TOPIC_NAME, messageKey, messageValue);
+            try{
+                RecordMetadata metadata = producer.send(record).get();
+//                logger.info(metadata.toString());
+            }catch (Exception e){
+                logger.error(e.getMessage(), e);
+            } finally {
+                producer.flush();
+
+            }
         }
+        logger.info("********************END************************");
+        producer.close();
     }
 }
